@@ -1,4 +1,3 @@
-#include "test_runner.h"
 #include "profile.h"
 #include "airportcounter.h"
 #include "tests.h"
@@ -15,8 +14,8 @@ int main() {
 
   LOG_DURATION("Total tests duration");
   RUN_TEST(tr, TestMoscow);
-  RUN_TEST(tr, TestManyConstructions);
-  RUN_TEST(tr, TestManyGetItems);
-  RUN_TEST(tr, TestMostPopularAirport);
+ // RUN_TEST(tr, TestManyConstructions);
+  //RUN_TEST(tr, TestManyGetItems);
+ // RUN_TEST(tr, TestMostPopularAirport);
   return 0;
 }
