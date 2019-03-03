@@ -14,8 +14,8 @@ int main() {
 
   LOG_DURATION("Total tests duration");
   RUN_TEST(tr, TestMoscow);
- // RUN_TEST(tr, TestManyConstructions);
-  //RUN_TEST(tr, TestManyGetItems);
- // RUN_TEST(tr, TestMostPopularAirport);
+  RUN_TEST(tr, TestManyConstructions);
+  RUN_TEST(tr, TestManyGetItems);
+  RUN_TEST(tr, TestMostPopularAirport);
   return 0;
 }
